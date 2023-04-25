@@ -9,7 +9,7 @@ export default function Project()
            </div>
            <div className="project-cards">
            <div className="card">
-             <a href="https://countries-weather-info-reka-bwd44task.netlify.app/">
+             <a href="https://countries-weather-info-reka-bwd44task.netlify.app/" target="_blank" rel="noreferrer">
                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhImnN1KCxe8k8DDt0pCl01uqmq6yZDPm3w&usqp=CAU"
                width={300}
                height={200}               
@@ -28,7 +28,7 @@ export default function Project()
                        </ul>
                      </div>
                      <div className="buttonDiv">
-                  <a href="https://countries-weather-info-reka-bwd44task.netlify.app/">
+                  <a href="https://countries-weather-info-reka-bwd44task.netlify.app/" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">View Project</button>
                   </a>
                  </div>
@@ -36,7 +36,7 @@ export default function Project()
                 
             </div>
             <div className="card">
-                <a href="https://makeupapi-webcode-truebeauty.netlify.app/">
+                <a href="https://makeupapi-webcode-truebeauty.netlify.app/"target="_blank" rel="noreferrer">
                <img src="https://i.pinimg.com/originals/69/2a/71/692a71970933c3c6805062387b00e143.jpg"
                width={300}
                height={200}               
@@ -55,7 +55,7 @@ export default function Project()
                        </ul>
                      </div>
                      <div className="buttonDiv">
-                  <a href="https://makeupapi-webcode-truebeauty.netlify.app/">
+                  <a href="https://makeupapi-webcode-truebeauty.netlify.app/" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">View Project</button>
                   </a>
                  </div>
@@ -63,7 +63,7 @@ export default function Project()
                 
             </div>
             <div className="card">
-                <a href="https://paattyisai-reka-bwd44task.netlify.app/">
+                <a href="https://paattyisai-reka-bwd44task.netlify.app/" target="_blank" rel="noreferrer">
                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHeLPkpt-fEgtw3A_p3RV5ju84ZxQDWUfvZA&usqp=CAU"
                width={300}
                height={200}               
@@ -82,7 +82,7 @@ export default function Project()
                        </ul>
                      </div>
                      <div className="buttonDiv">
-                  <a href="https://paattyisai-reka-bwd44task.netlify.app/">
+                  <a href="https://paattyisai-reka-bwd44task.netlify.app/" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">View Project</button>
                   </a>
                  </div>
