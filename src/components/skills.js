@@ -1,8 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 export default function Skills()
 {
+    const navigate=useNavigate()
+    function handleHome()
+    {
+        navigate('/')
+    }
     return(
         <div className="skills-container">
+           <div className="buttonDiv">
+           <button onClick={handleHome} className="btn btn-outline-light">Go to Home </button>
+            </div>
            <div className="skill-title" >
             <h1>Skills</h1>
            </div>

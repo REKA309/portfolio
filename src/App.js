@@ -14,7 +14,10 @@ function App() {
       <nav>
       <div className="menu-container">
         <div className='reka'>
-          <h1>Reka.N</h1>
+         <img src='https://images.assetsdelivery.com/compings_v2/mdranahamid/mdranahamid2002/mdranahamid200201790.jpg'
+         alt='rnlogo'
+         width={160}
+         height={85}/>
         </div>
       <div className="menu">
                 <ul className="menul">

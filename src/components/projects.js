@@ -1,9 +1,18 @@
 import React from "react";
 import './truebeauty.jpg'
+import { useNavigate } from "react-router-dom";
 export default function Project()
 {
+  const navigate=useNavigate()
+  function handleHome()
+  {
+      navigate('/')
+  }
     return(
         <div className="project-container">
+           <div className="buttonDiv">
+           <button onClick={handleHome} className="btn btn-outline-light">Go to Home </button>
+           </div>
            <div className="project-title">
             <h1>Projects</h1>
            </div>

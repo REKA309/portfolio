@@ -1,9 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 export default function Contact()
 {
+    const navigate=useNavigate()
+    function handleHome()
+    {
+        navigate('/')
+    }
+
     function handleDownload() {
         // replace this URL with the URL of your resume PDF file
-        const resumeUrl = 'https://drive.google.com/file/d/1FGvH8wIBFkg1kYJmR4KkG466j-aohteM/view';
+        const resumeUrl = 'https://drive.google.com/file/d/1NOek2UhyAl3R-9P6QdrGx3dmtotNou7R/view';
         
         // create a new anchor element
         const downloadLink = document.createElement('a');
@@ -21,6 +28,9 @@ export default function Contact()
       
     return(
         <div className="contact-container">
+            <div>
+            <button onClick={handleHome} className="btn btn-outline-light">Go to Home </button>
+            </div>
             <div className="contact-title">
                 <h1>Contact Me</h1>
             </div>
